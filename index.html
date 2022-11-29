@@ -10,8 +10,9 @@
 
 <body>
 
-	<!-- header start -->
-	<div class="pill-nav">
+	<!-- pill nav cancelled -->
+	
+	<!-- <div class="pill-nav">
 		<div class="pill"></div>
 		<ul class="nav-bar">
 			<li>
@@ -27,65 +28,93 @@
 				<div class="nav-item"></div>
 			</li>
 		</ul>
-	</div>
-	<header>
+	</div> -->
+
+
+	<!-- nav start -->
+	<nav>
+		<ul>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#product">Products</a></li>
+			<li><a href="#contact">Contacts</a></li>
+		</ul>
+	</nav>
+	<!-- nav end -->
+
+	<!-- header start -->
+
+	<header id="home">
 		<div class="blue">
-			<h1>Apotek
-				<br>
-				Bersama
+			<h1>
+				Apotekku
 			</h1>
+			<p>
+				-Obat Didepan Pintu Anda
+			</p>
 		</div>
 		<div class="bgimage">
-			<div class="container">
-
-				<!-- nav start -->
-				<nav>
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#about">About</a></li>
-						<li><a href="#products">Products</a></li>
-						<li><a href="#contact">Contacs</a></li>
-					</ul>
-				</nav>
-				<!-- nav end -->
-
-				<!-- login start -->
-				<div id="Account">
-					<a href="#">Daftar</a>
-					|
-					<a href="#">Login</a>
-				</div>
-				<!-- login end -->
-
-			</div>
-		</div>
-		<div class="box">
-		</div>
 	</header>
 	<!-- header end -->
 
+	</div>
 
 
 
 	<section>
-		<div class="products">
+
+		<!-- about start -->
+		<div id="about" class="about">
+			<div class="container">
+				<div class="medal block">
+					<div>
+					<img src="img/star_medal.png" alt="">
+				</div>
+					<div>
+						<h2>Top 5 Apotek</h2>
+						<p>Penjualan Lebih Dari 5 Juta Di Dunia</p>
+					</div>
+				</div>
+				<div class="doctor block">
+					<div>
+					<img src="img/doctor.png" alt="">
+					</div>
+					<div>
+					<h2>Pilihan Para Dokter</h2>
+					<p>Dipercaya Lebih Dari 1 jt Dokter di Seluruh Indonesia</p>
+					</div>
+				</div>
+			</div>
+			<div class="herbal block">
+				<div>
+					<img src="img/hetbal.png" alt="">
+				</div>
+				<div>
+					<h2>100% Herbal</h2>
+					<p>Dibuat dengan bahan alami</p>
+				</div>
+			</div>
+		</div>
+		<!-- about end -->
+
+		<div id="product" class="products">
 
 			<!-- category start -->
 			<h3>Categories</h3>
 			<div class="category-menu">
-				<div class="category-item">
+				<div class="category-item other">
 					<img src="img/items_plaster.jpg" alt="">
 				</div>
 				<div class="line"></div>
-				<div class="category-item">
+				<div class="category-item syrup">
 					<img src="img/items_syrup.jpg" alt="">
 				</div>
 				<div class="line"></div>
-				<div class="category-item">
+				<div class="category-item pills">
 					<img src="img/items_pills.jpg" alt="">
 				</div>
 				<div class="line"></div>
-				<div class="category-item">
+				<div class="category-item tablet">
 					<img src="img/items_tablet.jpg" alt="">
 				</div>
 			</div>
@@ -94,56 +123,168 @@
 
 			<!-- products start -->
 			<div class="product-container">
-				<ul>
+					<ul>
 
-					<li>
-						<div class="product-card">
-							<span class="disc">50% off</span>
-							<img src="img/thermal.jpeg" alt="">
-							<label for="">
-								<h5>Thermomether</h5>
-								<p>abc</p>
-								<span class="price-reg">Rp. 24.000</span>
-								<br>
-								<span class="price-off">Rp. 20.000</span>
-							</label>
-							<hr style="color: turquoise;border: solid 1px;">
-							<button>Beli Sekarang</button>
-						</div>
-					</li>
+						<li>
+							<div class="product-card">
+								<span class="disc">50% off</span>
+								<img src="img/thermal.jpeg" alt="">
+								<label for="">
+									<h5>Thermomether</h5>
+									<p>Alat pengukur suhu</p>
+									<span class="price-reg">Rp. 120.000</span>
+									<br>
+									<span class="price-off">Rp. 60.000</span>
+								</label>
+								<hr style="color: turquoise;border: solid 1px;">
+								<button>Beli Sekarang</button>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<span class="disc">15% off</span>
+								<img src="img/tablet1.png" alt="">
+								<label for="">
+									<h5>Bodrex</h5>
+									<p>Sakit kepala dan demam</p>
+									<span class="price-reg">Rp. 24.000</span>
+									<br>
+									<span class="price-off">Rp. 20.400</span>
+								</label>
+								<hr style="color: turquoise;border: solid 1px;">
+								<button>Beli Sekarang</button>
+							</div>
+						</li>
+						</li>
+						<li>
+							<div class="product-card">
+								<span class="disc">15% off</span>
+								<img src="img/pill.png" alt="">
+								<label for="">
+									<h5>Panadol</h5>
+									<p>Sakit kepala dan demam</p>
+									<span class="price-reg">Rp. 24.000</span>
+									<br>
+									<span class="price-off">Rp. 20.400</span>
+								</label>
+								<hr style="color: turquoise;border: solid 1px;">
+								<button>Beli Sekarang</button>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<span class="disc">15% off</span>
+								<img src="img/tablet3.png" alt="">
+								<label for="">
+									<h5>Paramex Sakit Kepala (1box)</h5>
+									<p>Sakit kepala</p>
+									<span class="price-reg">Rp. 24.000</span>
+									<br>
+									<span class="price-off">Rp. 20.400</span>
+								</label>
+								<hr style="color: turquoise;border: solid 1px;">
+								<button>Beli Sekarang</button>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<span class="disc">15% off</span>
+								<img src="img/tablet4.png" alt="">
+								<label for="">
+									<h5>Oskadon</h5>
+									<p>Sakit kepala</p>
+									<span class="price-reg">Rp. 24.000</span>
+									<br>
+									<span class="price-off">Rp. 20.400</span>
+								</label>
+								<hr style="color: turquoise;border: solid 1px;">
+								<button>Beli Sekarang</button>
+							</div>
+						</li>
+						<li>
+							<div class="product-card">
+								<span class="disc">15% off</span>
+								<img src="img/tablet5.png" alt="">
+								<label for="">
+									<h5>Paracetamol 500mg</h5>
+									<p>Sakit kepala</p>
+									<span class="price-reg">Rp. 24.000</span>
+									<br>
+									<span class="price-off">Rp. 20.400</span>
+								</label>
+								<hr style="color: turquoise;border: solid 1px;">
+								<button>Beli Sekarang</button>
+							</div>
+						</li>
 
-				</ul>
+					</ul>
 
 			</div>
 			<!-- product end -->
 
 
 			<!-- hot start -->
-			<div id="populare">
-				<h2>Paling Laku!</h2>
+			<div style="margin-top: 100px;" id="populare">
+				<h2>Paling Populer!</h2>
 				<ul>
-					<li class="item">
-						<div></div>
+					
+					<li>
+						<div class="product-card">
+							<span class="disc">15% off</span>
+							<img src="img/tablet5.png" alt="">
+							<label for="">
+								<h5>Paracetamol 500mg</h5>
+								<p>Sakit kepala</p>
+								<span class="price-reg">Rp. 24.000</span>
+								<br>
+								<span class="price-off">Rp. 20.400</span>
+							</label>
+							<hr style="color: white;border: solid 1px;">
+							<button>Beli Sekarang</button>
+						</div>
 					</li>
-					<li class="item">
-						<div></div>
+					<li>
+						<div class="product-card">
+							<span class="disc">15% off</span>
+							<img src="img/tablet5.png" alt="">
+							<label for="">
+								<h5>Paracetamol 500mg</h5>
+								<p>Sakit kepala</p>
+								<span class="price-reg">Rp. 24.000</span>
+								<br>
+								<span class="price-off">Rp. 20.400</span>
+							</label>
+							<hr style="color: white;border: solid 1px;">
+							<button>Beli Sekarang</button>
+						</div>
 					</li>
-					<li class="item">
-						<div></div>
-					</li>
-					<li class="item">
-						<div></div>
+					<li>
+						<div class="product-card">
+							<span class="disc">15% off</span>
+							<img src="img/tablet5.png" alt="">
+							<label for="">
+								<h5>Paracetamol 500mg</h5>
+								<p>Sakit kepala</p>
+								<span class="price-reg">Rp. 24.000</span>
+								<br>
+								<span class="price-off">Rp. 20.400</span>
+							</label>
+							<hr style="color: white;border: solid 1px;">
+							<button>Beli Sekarang</button>
+						</div>
 					</li>
 				</ul>
 			</div>
 			<!-- hot end -->
 
 
-			<!-- recomended -->
-			<div id="recomended">
-				<h3></h3>
+			<!-- thanks -->
+			<div id="thanks">
+				<h3>Thanks for visitting my website</h3>
 			</div>
-			<!-- recomended end -->
+			<!-- thanks end -->
+
+			<!-- coming soon -->
 
 
 		</div>
@@ -173,7 +314,7 @@
 		</div>
 
 		<div class="closing">
-			Created with 
+			Created with
 			<img class="coffee" src="img/loveCoffee.png" alt="">
 			by Ahmad Sahrija
 		</div>

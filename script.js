@@ -1,10 +1,4 @@
-let pill = document.querySelector(".pill");
-let pillNav = document.querySelector(".pill-nav");
-let navitem = document.querySelectorAll("nav-item")
 
-pill.onclick = function(){
-    pillNav.classList.toggle("aktif")
-}
 // ssssssssssssssssssssssssssssss
 
 
@@ -23,6 +17,7 @@ list.forEach((item) =>
 
 
 let categoryButton = document.querySelectorAll('.category-item');
+let categoryGroup = document.querySelectorAll('.category-item');
 
 function aktiflink() {
     categoryButton.forEach((item) =>
@@ -32,3 +27,4 @@ function aktiflink() {
 
 categoryButton.forEach((item) =>
     item.addEventListener('click', aktiflink))
+    
