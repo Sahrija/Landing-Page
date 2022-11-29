@@ -10,6 +10,7 @@
 
 <body>
 
+	<!-- header start -->
 	<div class="pill-nav">
 		<div class="pill"></div>
 		<ul class="nav-bar">
@@ -35,7 +36,9 @@
 			</h1>
 		</div>
 		<div class="bgimage">
-			<div class="nav-acc">
+			<div class="container">
+
+				<!-- nav start -->
 				<nav>
 					<ul>
 						<li><a href="#home">Home</a></li>
@@ -44,101 +47,80 @@
 						<li><a href="#contact">Contacs</a></li>
 					</ul>
 				</nav>
+				<!-- nav end -->
+
+				<!-- login start -->
 				<div id="Account">
 					<a href="#">Daftar</a>
 					|
 					<a href="#">Login</a>
 				</div>
+				<!-- login end -->
+
 			</div>
 		</div>
 		<div class="box">
 		</div>
 	</header>
-	<section>
-		<div id="products">
+	<!-- header end -->
 
-			<!-- ------------------------------------category------------------------------------ -->
+
+
+
+	<section>
+		<div class="products">
+
+			<!-- category start -->
 			<h3>Categories</h3>
-			<div id="category-menu">
-				<div class="category">
+			<div class="category-menu">
+				<div class="category-item">
 					<img src="img/items_plaster.jpg" alt="">
 				</div>
 				<div class="line"></div>
-				<div class="category">
+				<div class="category-item">
 					<img src="img/items_syrup.jpg" alt="">
 				</div>
 				<div class="line"></div>
-				<div class="category">
+				<div class="category-item">
 					<img src="img/items_pills.jpg" alt="">
 				</div>
 				<div class="line"></div>
-				<div class="category">
+				<div class="category-item">
 					<img src="img/items_tablet.jpg" alt="">
 				</div>
 			</div>
+			<!-- category end -->
 
-			<!-- ------------------------------------products------------------------------------ -->
-			<div id="product-container">
+
+			<!-- products start -->
+			<div class="product-container">
 				<ul>
+
 					<li>
 						<div class="product-card">
-							<button></button>
+							<span class="disc">50% off</span>
 							<img src="img/thermal.jpeg" alt="">
 							<label for="">
 								<h5>Thermomether</h5>
 								<p>abc</p>
+								<span class="price-reg">Rp. 24.000</span>
+								<br>
+								<span class="price-off">Rp. 20.000</span>
 							</label>
+							<hr style="color: turquoise;border: solid 1px;">
+							<button>Beli Sekarang</button>
 						</div>
 					</li>
-					<li>
-						<div class="product-card">
-							<button></button>
-							<img src="img/thermomether.jpg" alt="">
-							<label for=""></label>
-						</div>
-					</li>
-					<li>
-						<div class="product-card">
-							<button></button>
-							<img src="" alt="">
-							<label for=""></label>
-						</div>
-					</li>
-					<li>
-						<div class="product-card">
-							<button></button>
-							<img src="" alt="">
-							<label for=""></label>
-						</div>
-					</li>
-					<li>
-						<div class="product-card">
-							<button></button>
-							<img src="" alt="">
-							<label for=""></label>
-						</div>
-					</li>
-					<li>
-						<div class="product-card">
-							<button></button>
-							<img src="" alt="">
-							<label for=""></label>
-						</div>
-					</li>
-					<li>
-						<div class="product-card">
-							<button></button>
-							<img src="" alt="">
-							<label for=""></label>
-						</div>
-					</li>
+
 				</ul>
+
 			</div>
+			<!-- product end -->
 
 
-
+			<!-- hot start -->
 			<div id="populare">
-				<h2>a</h2>
+				<h2>Paling Laku!</h2>
 				<ul>
 					<li class="item">
 						<div></div>
@@ -154,11 +136,16 @@
 					</li>
 				</ul>
 			</div>
+			<!-- hot end -->
 
-			<!-- recomended------------------------------------ -->
+
+			<!-- recomended -->
 			<div id="recomended">
 				<h3></h3>
 			</div>
+			<!-- recomended end -->
+
+
 		</div>
 		<div class="feedback">
 
@@ -168,8 +155,11 @@
 		</div>
 	</section>
 
-	<!-- footer------------------------------------ -->
+
+
+	<!-- footer start -->
 	<footer id="contact">
+
 		<div class="container">
 			<div>
 				<h4>Get In Touch!</h4>
@@ -181,9 +171,18 @@
 				</ul>
 			</div>
 		</div>
-		<div class="closing">Created with <img src="coffee" alt=""></div>
+
+		<div class="closing">
+			Created with 
+			<img class="coffee" src="img/loveCoffee.png" alt="">
+			by Ahmad Sahrija
+		</div>
 	</footer>
+	<!-- footer end -->
+
+
 	<script src="script.js"></script>
+
 </body>
 
 </html>

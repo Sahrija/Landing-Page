@@ -17,4 +17,18 @@ function aktiflink() {
 }
 
 list.forEach((item) =>
+    item.addEventListener('click', aktiflink));
+
+// category toggle
+
+
+let categoryButton = document.querySelectorAll('.category-item');
+
+function aktiflink() {
+    categoryButton.forEach((item) =>
+        item.classList.remove('aktif'));
+    this.classList.add('aktif')
+}
+
+categoryButton.forEach((item) =>
     item.addEventListener('click', aktiflink))
